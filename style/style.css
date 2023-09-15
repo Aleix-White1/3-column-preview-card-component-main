@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "Big Shoulders";
+    src: url("./Big_Shoulders_Display/BigShouldersDisplay-VariableFont_wght.ttf");
+
+    font-family: "Lexend Deca";
+    src: url("./Lexend_Deca/LexendDeca-VariableFont_wght.ttf");
+}
+@media (min-width: 375px){
+    .container{
+        display: block; justify-content: center;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 10%;
+    }
+    .Sedans{
+        border-radius: 2% 2% 0% 0%;
+    }
+    .Luxury{
+        border-radius: 0% 0% 2% 2%;
+    }
+}
+@media (min-width: 1440px){
+    .container {
+        display: flex; justify-content: center;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 10%;
+    }
+    .Sedans{
+        border-radius: 2% 0% 0% 2%;
+    }
+    .Luxury{
+        border-radius: 0% 2% 2% 0%;
+    }
+}
+h1{
+    font-family: "Lexend Deca";
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: -0.1em;
+}
+p{
+    font-family: "Lexend Deca";
+    color: hsla(0, 0%, 100%, 0.75);
+    text-align: left;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 40%;
+    word-spacing: 3px;
+}
+
+.Sedans{
+    text-align: left;
+    padding: 40px;
+    background-color: hsl(31, 77%, 52%);
+    
+}
+.SUVs{
+    text-align: left;
+    padding: 40px;
+    background-color: hsl(184, 100%, 22%);
+}
+.Luxury{
+    text-align: left;
+    padding: 40px;
+    background-color: hsl(179, 100%, 13%);
+    
+
+}
+#btn-sed{
+    font-family: "Lexend Deca";
+    background-color:hsl(0, 0%, 95%);
+    color:  hsl(31, 77%, 52%);
+    border-radius: 30px;
+    border-width: 1%;
+    margin: 0 auto; display: left;
+    padding: 7%;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+#btn-suv{
+    font-family: "Lexend Deca";
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    border-radius: 30px;
+    border-width: 1%;
+    margin: 0 auto; display: left;
+    padding: 7%;
+    padding-right: 15%;
+    padding-left: 15%;
+
+}
+#btn-lux{
+    font-family: "Lexend Deca";
+    background-color:hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    border-radius: 30px;
+    border-width: 1%;
+    margin: 0 auto; display: left;
+    padding: 7%;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+
+
